@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# 추후 테스트 스크립트 추가 
+# npm run test:unitq
