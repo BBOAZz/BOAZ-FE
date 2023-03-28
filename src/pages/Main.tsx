@@ -16,7 +16,7 @@ const Main = () => {
     const { data: recruitmentInfos } = useRecruitmentQuery();
     const [isRecruitment, setIsRecruitment] = useState(true);
     useEffect(() => {
-        setIsRecruitment(recruitmentInfos?.isRecruitmentDuration);
+        setIsRecruitment(recruitmentInfos.payload?.isRecruitmentDuration);
     }, [recruitmentInfos]);
 
     return (
